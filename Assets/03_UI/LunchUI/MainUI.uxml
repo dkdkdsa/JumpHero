@@ -1,0 +1,21 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/03_UI/Common.uss?fileID=7433441132597879392&amp;guid=babce07a59d440b4ab7f7df122ae4d10&amp;type=3#Common" />
+    <ui:VisualElement name="Container" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0);">
+        <ui:VisualElement name="TopBar" style="flex-grow: 0; background-color: rgba(255, 255, 255, 0.62); flex-basis: 80px; flex-direction: row; justify-content: flex-end; align-items: center; padding-left: 20px; padding-right: 20px;">
+            <ui:Button text="점심" display-tooltip-when-elided="true" name="LunchBTN" class="btn" />
+            <ui:Button text="가방" display-tooltip-when-elided="true" name="InvenBTN" class="btn" />
+            <ui:Button text="로그인" display-tooltip-when-elided="true" name="LogInBTN" class="btn" />
+            <ui:VisualElement name="UserInfoPanel" class="widthzero" style="flex-grow: 0; background-color: rgba(0, 0, 0, 0); flex-direction: row; transition-property: width; transition-duration: 0.5s; transform-origin: right; overflow: hidden;">
+                <ui:Button text="유저인포" display-tooltip-when-elided="true" name="InfoBTN" enable-rich-text="true" class="btn" />
+                <ui:Button text="로그아웃" display-tooltip-when-elided="true" name="LogoutBTN" class="btn" style="background-color: rgba(0, 69, 255, 0.69);" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+        <ui:VisualElement name="Content" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); align-items: center; justify-content: center;" />
+    </ui:VisualElement>
+    <ui:VisualElement name="MessageContainer" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); position: absolute; bottom: 0; right: 0;" />
+    <ui:VisualElement name="UserPopOver" class="popover" style="position: absolute; left: 0; top: 0; width: 125px; background-color: rgba(51, 51, 51, 0.84); border-top-left-radius: 5px; border-bottom-left-radius: 5px; border-top-right-radius: 5px; border-bottom-right-radius: 5px; scale: 1 0; transform-origin: top; transition-property: scale; transition-duration: 0.3s;">
+        <ui:Label tabindex="-1" text="이름" display-tooltip-when-elided="true" name="NameLabel" class="info-label" />
+        <ui:Label tabindex="-1" text="AAA1231231231231231231231231" display-tooltip-when-elided="true" name="EmailLabel" class="info-label" />
+        <ui:Label tabindex="-1" text="EXP&#10;" display-tooltip-when-elided="true" name="ExpLabel" class="info-label" />
+    </ui:VisualElement>
+</ui:UXML>

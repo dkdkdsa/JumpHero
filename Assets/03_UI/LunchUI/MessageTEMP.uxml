@@ -1,0 +1,7 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/03_UI/MSGTEMP.uss?fileID=7433441132597879392&amp;guid=370110aa703461445befaf7eacb6220e&amp;type=3#MSGTEMP" />
+    <ui:VisualElement name="MessageBox" class="msg" style="flex-grow: 0; justify-content: flex-start; align-items: center; padding-left: 10px; padding-right: 10px; padding-top: 10px; padding-bottom: 10px; border-top-left-radius: 5px; border-bottom-left-radius: 5px; border-top-right-radius: 5px; border-bottom-right-radius: 5px;">
+        <ui:VisualElement name="Icon" style="flex-grow: 0; background-color: rgba(0, 0, 0, 0); width: 32px; height: 32px; background-image: url(&apos;project://database/Assets/UnityDefaultRuntimeTheme.tss?fileID=8228938214290033325&amp;guid=248fe191c10c78d4bbdf295e84d6e362&amp;type=3#console.erroricon&apos;); margin-right: 10px; padding-left: 0; padding-right: 0; padding-top: 0; padding-bottom: 0;" />
+        <ui:Label tabindex="-1" text="DEBUG TEXT" display-tooltip-when-elided="true" name="Message" style="flex-grow: 1; color: rgb(255, 255, 255); -unity-font-style: bold-and-italic; font-size: 18px;" />
+    </ui:VisualElement>
+</ui:UXML>

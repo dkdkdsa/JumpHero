@@ -1,0 +1,49 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/03_UI/Common.uss?fileID=7433441132597879392&amp;guid=babce07a59d440b4ab7f7df122ae4d10&amp;type=3#Common" />
+    <ui:VisualElement name="InvenBody" class="window" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0);">
+        <ui:VisualElement name="Header" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0);">
+            <ui:Label tabindex="-1" text="Inven" display-tooltip-when-elided="true" name="InvLabel" style="font-size: 40px; -unity-text-align: upper-center; color: rgb(255, 255, 255);" />
+        </ui:VisualElement>
+        <ui:VisualElement name="BodyContent" style="background-color: rgba(0, 0, 0, 0); width: 1050px; height: 320px; background-image: url(&apos;project://database/Assets/04.Sprites/scifi_inventory01_box_back.png?fileID=2800000&amp;guid=0102da9611347344497aeb2e808ced62&amp;type=3#scifi_inventory01_box_back&apos;); -unity-slice-left: 14; -unity-slice-top: 14; -unity-slice-right: 14; -unity-slice-bottom: 14; -unity-background-scale-mode: stretch-to-fill; -unity-slice-scale: 3.9px; padding-left: 20px; padding-right: 20px; padding-top: 20px; padding-bottom: 20px; flex-direction: row; flex-shrink: 1; flex-wrap: wrap; justify-content: space-between;">
+            <ui:VisualElement name="Slot" class="slot" style="background-color: rgba(0, 0, 0, 0);" />
+            <ui:VisualElement name="Slot" class="slot" style="background-color: rgba(0, 0, 0, 0);" />
+            <ui:VisualElement name="Slot" class="slot" style="background-color: rgba(0, 0, 0, 0);" />
+            <ui:VisualElement name="Slot" class="slot" style="background-color: rgba(0, 0, 0, 0);" />
+            <ui:VisualElement name="Slot" class="slot" style="background-color: rgba(0, 0, 0, 0);" />
+            <ui:VisualElement name="Slot" class="slot" style="background-color: rgba(0, 0, 0, 0);" />
+            <ui:VisualElement name="Slot" class="slot" style="background-color: rgba(0, 0, 0, 0);" />
+            <ui:VisualElement name="Slot" class="slot" style="background-color: rgba(0, 0, 0, 0);" />
+            <ui:VisualElement name="Slot" class="slot" style="background-color: rgba(0, 0, 0, 0);" />
+            <ui:VisualElement name="Slot" class="slot" style="background-color: rgba(0, 0, 0, 0);" />
+            <ui:VisualElement name="Slot" class="slot" style="background-color: rgba(0, 0, 0, 0);" />
+            <ui:VisualElement name="Slot" class="slot" style="background-color: rgba(0, 0, 0, 0);" />
+            <ui:VisualElement name="Slot" class="slot" style="background-color: rgba(0, 0, 0, 0);" />
+            <ui:VisualElement name="Slot" class="slot" style="background-color: rgba(0, 0, 0, 0);" />
+            <ui:VisualElement name="Slot" class="slot" style="background-color: rgba(0, 0, 0, 0);" />
+            <ui:VisualElement name="Slot" class="slot" style="background-color: rgba(0, 0, 0, 0);" />
+            <ui:VisualElement name="Slot" class="slot" style="background-color: rgba(0, 0, 0, 0);" />
+            <ui:VisualElement name="Slot" class="slot" style="background-color: rgba(0, 0, 0, 0);" />
+            <ui:VisualElement name="Slot" class="slot" style="background-color: rgba(0, 0, 0, 0);" />
+            <ui:VisualElement name="Slot" class="slot" style="background-color: rgba(0, 0, 0, 0);" />
+            <ui:VisualElement name="Slot" class="slot" style="background-color: rgba(0, 0, 0, 0);" />
+            <ui:VisualElement name="Slot" class="slot" style="background-color: rgba(0, 0, 0, 0);" />
+            <ui:VisualElement name="Slot" class="slot" style="background-color: rgba(0, 0, 0, 0);" />
+            <ui:VisualElement name="Slot" class="slot" style="background-color: rgba(0, 0, 0, 0);" />
+            <ui:VisualElement name="Slot" class="slot" style="background-color: rgba(0, 0, 0, 0);" />
+            <ui:VisualElement name="Slot" class="slot" style="background-color: rgba(0, 0, 0, 0);" />
+            <ui:VisualElement name="Slot" class="slot" style="background-color: rgba(0, 0, 0, 0);" />
+            <ui:VisualElement name="Slot" class="slot" style="background-color: rgba(0, 0, 0, 0);" />
+            <ui:VisualElement name="Slot" class="slot" style="background-color: rgba(0, 0, 0, 0);" />
+            <ui:VisualElement name="Slot" class="slot" style="background-color: rgba(0, 0, 0, 0);" />
+            <ui:VisualElement name="Slot" class="slot" style="background-color: rgba(0, 0, 0, 0);" />
+            <ui:VisualElement name="Slot" class="slot" style="background-color: rgba(0, 0, 0, 0);" />
+            <ui:VisualElement name="Slot" class="slot" style="background-color: rgba(0, 0, 0, 0);" />
+            <ui:VisualElement name="Slot" class="slot" style="background-color: rgba(0, 0, 0, 0);" />
+            <ui:VisualElement name="Slot" class="slot" style="background-color: rgba(0, 0, 0, 0);" />
+            <ui:VisualElement name="Slot" class="slot" style="background-color: rgba(0, 0, 0, 0);" />
+        </ui:VisualElement>
+        <ui:VisualElement name="Btn" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); align-items: flex-end;">
+            <ui:Button text="닫기" display-tooltip-when-elided="true" name="ExitBtn" class="btn" style="font-size: 30px;" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

@@ -1,0 +1,12 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/03_UI/Common.uss?fileID=7433441132597879392&amp;guid=babce07a59d440b4ab7f7df122ae4d10&amp;type=3#Common" />
+    <ui:VisualElement name="LoginWindow" class="window" style="flex-grow: 0; background-color: rgb(46, 46, 46); width: 750px; height: 250px; border-top-left-radius: 15px; border-bottom-left-radius: 15px; border-top-right-radius: 15px; border-bottom-right-radius: 15px;">
+        <ui:Label tabindex="-1" text="Login" display-tooltip-when-elided="true" style="color: rgb(255, 255, 255); font-size: 40px; align-items: stretch; -unity-text-align: upper-center;" />
+        <ui:TextField picking-mode="Ignore" label="이메일" value="aaaa@gmail.com" name="EmailInput" class="FieldText" />
+        <ui:TextField picking-mode="Ignore" label="비밀번호" value="glglglglglglgl" name="PasswordInput" password="true" hide-mobile-input="true" class="FieldText" />
+        <ui:VisualElement name="ButtonRow" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); justify-content: flex-end; flex-direction: row; align-items: center;">
+            <ui:Button text="좋아" display-tooltip-when-elided="true" name="OK" class="btn" style="background-color: rgba(0, 51, 255, 0.69);" />
+            <ui:Button text="아니" display-tooltip-when-elided="true" name="NO" class="btn" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

@@ -1,0 +1,7 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/03_UI/Common.uss?fileID=7433441132597879392&amp;guid=babce07a59d440b4ab7f7df122ae4d10&amp;type=3#Common" />
+    <ui:VisualElement name="Item" class="item" style="flex-grow: 0; width: 80px; height: 80px;">
+        <ui:VisualElement name="Sprite" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); width: 64px; height: 64px; background-image: url(&apos;project://database/Assets/UnityDefaultRuntimeTheme.tss?fileID=4154780841294389669&amp;guid=248fe191c10c78d4bbdf295e84d6e362&amp;type=3#arrow-down&apos;);" />
+        <ui:Label tabindex="-1" text="Label" display-tooltip-when-elided="true" name="CountLabel" style="position: absolute; height: 80px; width: 80px; -unity-text-align: middle-center; bottom: -15px; right: -2px; color: rgb(255, 0, 0); -unity-font-style: bold;" />
+    </ui:VisualElement>
+</ui:UXML>
